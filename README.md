@@ -1,5 +1,5 @@
 ### Hi there 👋
-<img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Farcangelofranco&label=--%20visitors&labelColor=%23697689&countColor=%23555555&style=flat-square&labelStyle=lower"/>
+<img align="right" src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Farcangelofranco&label=--%20visitors&labelColor=%23697689&countColor=%23555555&style=flat-square&labelStyle=lower"/>
 <!--
 **arcangelofranco/arcangelofranco** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
