@@ -10,34 +10,32 @@
     def __init__(self):
         self.name = "Arcangelo"
         self.surname = "Franco"
-        self.age = "28"
+        self.age = 28
         self.location = "Italy"
         self.university = "University of Pisa"
 
     def introduce(self):
-        introduction = (
-            f"Hi! My name is {self.name}\n"
+        return (
+            f"Hi! My name is {self.name} {self.surname}.\n"
             f"I'm {self.age} years old and I'm from {self.location}.\n"
             "I hope I can be of help to you."
         )
-        return introduction
 
     def education(self):
-        education_path = (
-            f"I completed my Bachelor's degree in Digital Humanities\n"
-            f"at {self.university}, focusing on topics such as Natural Language Processing,\n"
-            "Human Language Technologies, Web Development, and Data Analysis.\n"
-            f"I'm currently pursuing my Master's degree in\n"
-            "Data Science and Business Informatics at the same university.\n"
+        return (
+            f"I completed my Bachelor's degree in Digital Humanities at {self.university},\n"
+            "focusing on topics such as Natural Language Processing, Human Language Technologies,\n"
+            "Web Development, and Data Analysis.\n"
+            "I'm currently pursuing my Master's degree in Data Science and Business Informatics\n"
+            "at the same university.\n"
             "My research interests include Machine Learning, Natural Language Processing, and Data Mining."
         )
-        return education_path
 
 def main():
-    presentation = Introducer()
+    presenter = Introducer()
 
-    print(presentation.introduce())
-    print(presentation.education())
+    print(presenter.introduce())
+    print(presenter.education())
 
 if __name__ == "__main__":
     main()
