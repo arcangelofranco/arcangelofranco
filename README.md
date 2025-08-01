@@ -6,13 +6,36 @@
 <br/>
 
   ```python
-  class Introducer:
+ class Education:
+    def __init__(self):
+        self.bachelor_university = "University of Pisa"
+        self.bachelor_field = "Digital Humanities"
+        self.master_university = "University of Pisa"
+        self.master_field = "NLP & Digital Humanities"
+        self.research_interests = [
+            "Machine Learning",
+            "Natural Language Processing",
+            "Artificial intelligence",
+            "Data Science"
+        ]
+
+    def describe(self):
+        interests = ", ".join(self.research_interests)
+        return (
+            f"I completed my Bachelor's degree in {self.bachelor_field} at {self.bachelor_university},\n"
+            "focusing on topics such as Natural Language Processing, Human Language Technologies,\n"
+            "Web Development, and Data Analysis.\n"
+            f"I'm currently pursuing my Master's degree in {self.master_field} at {self.master_university}.\n"
+            f"My research interests include {interests}."
+        )
+
+class Introducer:
     def __init__(self):
         self.name = "Arcangelo"
         self.surname = "Franco"
-        self.age = 28
+        self.age = 29
         self.location = "Italy"
-        self.university = "University of Pisa"
+        self.education = Education()
 
     def introduce(self):
         return (
@@ -21,21 +44,14 @@
             "I hope I can be of help to you."
         )
 
-    def education(self):
-        return (
-            f"I completed my Bachelor's degree in Digital Humanities at {self.university},\n"
-            "focusing on topics such as Natural Language Processing, Human Language Technologies,\n"
-            "Web Development, and Data Analysis.\n"
-            "I'm currently pursuing my Master's degree in Data Science and Business Informatics\n"
-            "at the same university.\n"
-            "My research interests include Machine Learning, Natural Language Processing, and Data Mining."
-        )
+    def describe_education(self):
+        return self.education.describe()
 
 def main():
     presenter = Introducer()
-
     print(presenter.introduce())
-    print(presenter.education())
+    print()
+    print(presenter.describe_education())
 
 if __name__ == "__main__":
     main()
