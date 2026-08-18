@@ -8,8 +8,7 @@
 
 <p align="center">
   &#128187 Developer specializing in <b>NLP</b> and <b>AI</b><br/>
-  &#128205 Based in Sansepolcro (AR), Italy &nbsp; | &nbsp;
-  &#127760 <a href="https://arcangelofranco.github.io/">arcangelofranco.github.io</a>
+  &#128205 Based in Sansepolcro (AR), Italy &nbsp;
 </p>
 
 <h4 align="center">&#128295 Tech Stack</h3>
