@@ -23,6 +23,9 @@
   <a href="https://github.com/arcangelofranco/gqa-moe">
     <img src="https://github-stats-extended.vercel.app/api/pin/?username=arcangelofranco&repo=gqa-moe&theme=dark&hide_border=true&title_color=6B8095&icon_color=6B8095&text_color=B8C2CC&bg_color=1E252B" />
   </a>
+  <a href="https://github.com/arcangelofranco/naive-rag-assistant">
+    <img src="https://github-stats-extended.vercel.app/api/pin/?username=arcangelofranco&repo=naive-rag-assistant&theme=dark&hide_border=true&title_color=6B8095&icon_color=6B8095&text_color=B8C2CC&bg_color=1E252B" />
+  </a>
 </p>
 
 <h4 align="center">&#128231 Contact</h3>
